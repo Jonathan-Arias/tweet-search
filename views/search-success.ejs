@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tweet Search With API</title>
+	<link href="/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Recents tweets about <%= data.search %>. . .</h1>
+	<ul>
+		<% for(var i = 0; i <= tweets.length; i++) { %>
+			<li><%= tweets[i] %></li>
+		<% } %>
+	</ul>
+</body>
+
+</html>
