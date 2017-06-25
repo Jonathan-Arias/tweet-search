@@ -1,2 +1,2 @@
 # tweet-search
-A very basic project for myself to learn how to use Node.js and other technologies to request data from APIs
+To try this out, you'll need to register with Twitter to get your own set of API keys. Supply them in index.js and then run index.js (I used nodemon to facilitate development, it is not necessary if you merely want to try this out). Then navigate to localhost:3000 in your web browser and enter a query to search Twitter for! Note that if you merely hit enter without supplying a query the default value is 'cats' :)
